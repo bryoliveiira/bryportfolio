@@ -180,6 +180,7 @@ h2 {
     color: rgba(255, 255, 255, 0.9);
 }
 
+
 .btn-primary, .btn-secondary {
     padding: 10px 25px;
     border-radius: 5px;
@@ -369,6 +370,10 @@ footer {
     margin: 0 auto;
 }
 
+.light-theme .bg-light-black .skill-item .skill-description {
+    color: var(--text-color); 
+}
+
 @media (max-width: 768px) {
     
     .logo {
@@ -422,6 +427,7 @@ footer {
 
     .hero-content {
         background-color: rgba(0, 0, 0, 0.7); 
+        padding: 30px; 
     }
     
     .logo {
@@ -435,6 +441,11 @@ footer {
 
     .education-grid {
         grid-template-columns: 1fr;
+    }
+
+    .profile-img {
+        width: 200px; 
+        height: 200px;
     }
 }
 
